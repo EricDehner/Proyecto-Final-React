@@ -1,0 +1,44 @@
+.fa-regular {
+    margin-left: .8rem;
+}
+
+.p {
+    margin: 0;
+}
+
+.checkout_container {
+    width: 90%;
+    margin: 4.5rem auto 3rem auto;
+    background-color: rgba(205, 205, 190, 0.405);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.671);
+    display: flex;
+}
+
+.form_container {
+    width: 500px;
+}
+
+.stick {
+    margin: 0 2rem;
+    width: 1px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.645);
+}
+
+.form_container-cart {
+    width: 100%;
+}
+
+.formImputs {
+    width: 100%;
+    background-color: rgba(79, 79, 67, 0.138);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.3rem;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}

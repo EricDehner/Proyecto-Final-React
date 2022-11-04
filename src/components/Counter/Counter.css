@@ -1,0 +1,69 @@
+.counterBtn {
+    padding-top: 2px;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid rgba(90, 90, 90, 0.294);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.241);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.324);
+}
+
+.counter-subtract,
+.counter-add {
+    border: 0;
+    padding: 0 1rem;
+    background-color: transparent;
+    color: rgba(59, 59, 59, 0.832);
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+}
+
+.counter-numb {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0;
+    color: rgba(59, 59, 59, 0.916);
+}
+
+.Buttoon {
+    width: 12rem;
+    height: 3rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.3rem;
+    border: 2px solid rgba(90, 90, 90, 0.294);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.241);
+    color: rgba(59, 59, 59, 0.916);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.324);
+    transition: all .12s ease-in-out;
+}
+
+.Buttoon:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.606);
+    color: rgba(0, 0, 0, 0.871);
+}
+
+.counter_container {
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    margin-bottom: 3rem;
+}
+
+.counter_stock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 2rem;
+}
+
+.counter-stock {
+    margin-top: .5rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.307);
+}

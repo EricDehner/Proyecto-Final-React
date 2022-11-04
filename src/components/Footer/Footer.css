@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(73, 73, 73, 0.264);
+}
+
+.footer_item {
+    display: flex;
+    align-items: center;
+    padding: 0rem .5rem;
+}
+
+.footer_item-icon {
+    padding: .5rem;
+    color: #393939;
+    font-size: 1rem;
+}
+
+.footer_item-item {
+    display: flex;
+    align-items: center;
+    color: #393939;
+    font-family: "Koulen", cursive;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer_item-item:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-decoration {
+    text-decoration: none;
+    margin: 0;
+}

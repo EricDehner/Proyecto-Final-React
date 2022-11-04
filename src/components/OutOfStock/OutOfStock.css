@@ -1,0 +1,23 @@
+.outStock_container {
+    margin-bottom: -4rem;
+}
+
+.outStock_text {
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.307);
+
+}
+
+.outStock_text-alt {
+    width: 25rem;
+    margin-top: .5rem;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.608);
+}

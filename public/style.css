@@ -1,0 +1,6 @@
+.background {
+    background-image: url(/public/images/fondo/fondo.png);
+    background-size: auto;
+    font-size: 19px;
+    height: 100vh;
+}

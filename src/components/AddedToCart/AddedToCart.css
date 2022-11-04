@@ -1,0 +1,46 @@
+.btns_container {
+    width: 100%;
+    margin-bottom: 2.9rem;
+}
+
+.margin-cart {
+    margin-left: 1.2rem;
+}
+
+.btn-backToCart {
+    margin: 0 2rem;
+    width: 12rem;
+    height: 3rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.3rem;
+    border: 2px solid rgba(90, 90, 90, 0.294);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.241);
+    color: rgba(59, 59, 59, 0.916);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.324);
+    transition: all .12s ease-in-out;
+}
+
+.btn-backToCart:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.606);
+    color: rgba(0, 0, 0, 0.871);
+}
+
+.btn-continueShopping {
+    margin: 0 2rem;
+    width: 12rem;
+    height: 3rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.3rem;
+    border: 2px solid rgba(90, 90, 90, 0.294);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.241);
+    color: rgba(59, 59, 59, 0.916);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.324);
+    transition: all .12s ease-in-out;
+}
+
+.btn-continueShopping:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.606);
+    color: rgba(0, 0, 0, 0.871);
+}

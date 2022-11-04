@@ -1,0 +1,45 @@
+.navbar_color {
+    background-color: rgba(197, 200, 172, 0.97);
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.178);
+}
+
+.navbar_color-dropdown {
+    background-color: rgba(197, 200, 172, 0.808);
+    border: 1px #c5c8ac;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+}
+
+.navbar_decoration {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.645);
+    transition: all .12s ease-in-out;
+
+}
+
+.navbar_decoration:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.space_item {
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", cursive;
+    padding: 0rem .7rem;
+}
+
+.nav-link {
+    border: 0;
+    background-color: transparent;
+
+}
+
+.nav-decoration {
+    text-decoration: none;
+}

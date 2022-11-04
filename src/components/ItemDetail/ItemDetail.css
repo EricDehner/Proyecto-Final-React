@@ -1,0 +1,53 @@
+.detail_container {
+    width: 1500px;
+    margin: auto;
+    margin: 6rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(199, 201, 173, 0.493);
+    border: 1px solid rgba(0, 0, 0, 0.115);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.34);
+}
+
+.detail {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.detail_img {
+    background-color: rgba(0, 0, 0, 0.419);
+    width: 600px;
+    height: 600px;
+    margin: 2.5rem 4rem 2.5rem 4rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.34);
+}
+
+.detail_content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail_content-name {
+    margin-bottom: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+}
+
+.detail_content-description {
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", cursive;
+    color: rgba(0, 0, 0, 0.588);
+}
+
+.detail_content-price {
+    margin: 6rem;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.637);
+}
