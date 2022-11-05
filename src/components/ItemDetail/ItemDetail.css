@@ -1,7 +1,6 @@
 .detail_container {
-    width: 1500px;
-    margin: auto;
-    margin: 6rem auto 0 auto;
+    width: 80%;
+    margin: 6rem auto 3rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +13,6 @@
 
 .detail {
     display: flex;
-    width: 100%;
     justify-content: space-around;
 }
 
@@ -25,6 +23,7 @@
     margin: 2.5rem 4rem 2.5rem 4rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.34);
 }
+
 
 .detail_content {
     margin: auto;
@@ -50,4 +49,20 @@
     font-family: "Bebas Neue", cursive;
     font-size: 1.7rem;
     color: rgba(0, 0, 0, 0.637);
+}
+
+
+@media screen and (max-width: 1367px){
+    .detail_img {
+        width: 375px;
+        height: 375px;
+    }
+    .detail_container {
+        width: 90%;
+        margin: 3rem auto 3rem auto;
+
+    }
+    .detail_content-price {
+        margin: 3rem;
+    }
 }

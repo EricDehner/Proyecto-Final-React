@@ -63,3 +63,12 @@
     font-family: "Bebas Neue", cursive;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1367px){
+    .item_img {
+        width: 320px;
+    }
+    .item_container {
+        width: 345px;
+    }
+}

@@ -37,7 +37,7 @@ const Checkout = () => {
     }
 
     return (
-        <div>
+        <div className="checkout-center">
             <div className="checkout_container">
                 <div>
                     <CheckoutForm />

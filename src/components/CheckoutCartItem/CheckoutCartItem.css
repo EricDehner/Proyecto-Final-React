@@ -24,3 +24,13 @@
     justify-content: center;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.742);
 }
+
+@media screen and (max-width: 1367px){
+    .checkout_img {
+        width: 230px;
+    }
+    .checkout_quantity {
+        bottom: 14rem;
+        left: 11.9rem;
+    }
+}
